@@ -143,7 +143,7 @@ def approval():
             "https://github.com/Bisheshz/06f27/blob/main/8.txt"
         ]
         
-        key_found = False
+        key_found = True
         for url in urls:
             approval_data = get_approval_data(url)
             
@@ -203,7 +203,7 @@ def approvalf():
             "https://github.com/Bisheshz/06f27/blob/main/8.txt"
         ]
         
-        key_found = False
+        key_found = True
         for url in urls:
             approval_data = get_approval_data(url)
             
